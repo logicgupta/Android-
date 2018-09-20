@@ -1,0 +1,299 @@
+<resources>
+    <string name="app_name">LectureNotes</string>
+
+    <!-- Facebook application ID and custom URL scheme (app ID prefixed by 'fb'). -->
+    <string name="facebook_application_id" translatable="false">475632589533776</string>
+    <string name="facebook_login_protocol_scheme" translatable="false">fb475632589533776</string>
+    <string name="title_activity_success__login_">Success_Login_Activity</string>
+    <string name="navigation_drawer_open">Open navigation drawer</string>
+    <string name="navigation_drawer_close">Close navigation drawer</string>
+    <string name="nav_header_title">Android Studio</string>
+    <string name="nav_header_subtitle">android.studio@android.com</string>
+    <string name="nav_header_desc">Navigation header</string>
+    <string name="action_settings">Settings</string>
+
+    <string-array name="computer_sem1">
+        <item>Maths</item>
+        <item>Physics</item>
+        <item>C++</item>
+        <item>Electrical Circuit Analysis</item>
+        <item>Communicative English</item>
+    </string-array>
+    <string-array name="computer_sem2">
+        <item>  Life Skills</item>
+        <item>	Environment Studies</item>
+        <item>	Mathematics-II</item>
+        <item>	Physics-II</item>
+        <item>  Electronic Devices and Circuits  </item>
+        <item> 	Data Structures</item>
+    </string-array>
+    <string-array name="computer_sem3">
+        <item>  Techniques for decision making</item>
+        <item>	Discrete Mathematics</item>
+        <item>	Digital Electronics</item>
+        <item>	Object Oriented Programming</item>
+        <item>  Database Systems</item>
+        <item> 	Data Structures</item>
+    </string-array>
+    <string-array name="computer_sem4">
+        <item>  Digital Marketing</item>
+        <item>	Probability Theory and Random Processes</item>
+        <item>	Computer Networks</item>
+        <item>  Fundamentals of Algorithms</item>
+        <item>  Microprocessors and Controllers</item>
+        <item> 	Unix Programming</item>
+    </string-array>
+    <string-array name="computer_sem5">
+        <item>  Analog and Digital Communication</item>
+        <item>  Operating Systems</item>
+        <item>	Software Engineering</item>
+        <item>  Theory of Computation</item>
+        <item>  Advanced Programming Lab-II</item>
+        <item> 	Businees Communication </item>
+    </string-array>
+    <string-array name="computer_sem6">
+        <item>  Compiler Design</item>
+        <item>  Computer Organisation and Architecture</item>
+        <item>	Systems and Network Programming</item>
+        <item>  Data Science</item>
+        <item>  Web Technology</item>
+        <item> 	Software Quality Management </item>
+    </string-array>
+    <string-array name="computer_sem7">
+        <item>  Artificial Intelligence and Applications</item>
+        <item>  Cryptography and Network Security</item>
+        <item>	Cloud Computing</item>
+        <item>  Game theory</item>
+        <item>  Information Retrieval and Data Mining</item>
+        <item> 	Simulation of Semiconductor Devices </item>
+    </string-array>
+    <string-array name="computer_sem8"></string-array>
+    <string-array name="chemical_sem1">
+        <item>  Mathematics-I</item>
+        <item>  Software Development Fundamental-1</item>
+        <item>	Physics-I</item>
+        <item>  English</item>
+        <item>  Engineering Drawing and Design</item>
+        <item> 	Software Development Fundamental Lab-1</item>
+    </string-array>
+    <string-array name="chemical_sem2">
+        <item>  Mathematics-2</item>
+        <item>  Electrical Circuit Analysis</item>
+        <item>	Physics-2</item>
+        <item>  Engineering Mechanics</item>
+    </string-array>
+    <string-array name="chemical_sem3">
+        <item>  Chemical Process Calculations</item>
+        <item>  Fluid and Fluid Particle Mechanics</item>
+        <item>	Organic Chemistry</item>
+        <item>  Chemical Engineering Thermodynamics</item>
+    </string-array>
+    <string-array name="chemical_sem4">
+        <item>  Heat Transfer Operations</item>
+        <item>  Mass Transfer Operations</item>
+        <item>	Environmental Science</item>
+        <item>  Mathematics - 3</item>
+    </string-array>
+    <string-array name="chemical_sem5">
+        <item>  Chemical Reaction Engineering</item>
+        <item>  Science Elective</item>
+        <item>	Instrumentation and Process Control</item>
+        <item>  Instrumentation and Process Control</item>
+    </string-array>
+    <string-array name="chemical_sem6">
+        <item>  Design of Separation Processes</item>
+        <item>  Chemical Reactor Design</item>
+        <item>	Environmental Engineering</item>
+        <item>  Indian Constitution and Traditional Knowledge</item>
+        <item>  Process Modelling and Simulation Lab</item>
+    </string-array>
+    <string-array name="chemical_sem7"></string-array>
+    <string-array name="chemical_sem8"></string-array>
+    <string-array name="mechanical_sem1">
+        <item>Maths</item>
+        <item>Physics</item>
+        <item>C++</item>
+        <item>Electrical Circuit Analysis</item>
+        <item>Communicative English</item>
+    </string-array>
+
+    <string-array name="mechanical_sem2">
+        <item>  Life Skills</item>
+        <item>  Mathematics-II</item>
+        <item>	Engineering Chemistry</item>
+        <item>  Electrical Sciences</item>
+        <item>  Engineering Mechanics</item>
+        <item>  Material Science</item>
+    </string-array>
+    <string-array name="mechanical_sem4">//5
+        <item>  Financial Management</item>
+        <item>  Manufacturing Technology II</item>
+        <item>  Kinematics of Machines</item>
+        <item>  Fluid Mechanics</item>
+        <item>  Operation Research</item>
+    </string-array>
+    <string-array name="mechanical_sem3">//6
+        <item>  Managerial Economics</item>
+        <item>  Environmental  Studies</item>
+        <item>  Numerical Methods</item>
+        <item>  Manufacturing Technology I</item>
+        <item>  Engineering Thermodynamics</item>
+        <item>  Strength of Material</item>
+    </string-array>
+    <string-array name="mechanical_sem5">//6
+        <item>  Macro Economics</item>
+        <item>  Dynamics and Vibrations of Machinery</item>
+        <item>  Internal Combustion Engines</item>
+        <item>  Heat and Mass Transfer</item>
+        <item>  Design of Machine Elements</item>
+        <item>  Internal Combustion Engines Lab</item>
+    </string-array>
+    <string-array name="mechanical_sem6">
+        <item>  Internal Combustion Engines Lab</item>
+        <item>  Computer Aided Design</item>
+        <item>  Refrigeration and Air-Conditioning</item>
+        <item>  Advanced Manufacturing Processes</item>
+        <item>  Computer Aided Manufacturing</item>
+        <item>  Measurement and Control</item>
+    </string-array>
+    <string-array name="mechanical_sem7"></string-array>
+
+    <string-array name="mechanical_sem8">
+
+    </string-array>
+
+    \\ Civil
+
+    <string-array name="civil_sem1">
+
+        <item>  English</item>
+        <item>  Mathematics-I</item>
+        <item>  Physics-I</item>
+        <item>  Electrical Circuit Analysis</item>
+        <item>  Introduction to Computers and  Programming</item>
+        <item>  Physics Lab-I</item>
+    </string-array>
+
+    <string-array name="civil_sem2">
+        <item>  Life Skills</item>
+        <item>  Mathematics-II</item>
+        <item>  Chemistry</item>
+        <item>  Building Materials and Construction</item>
+        <item>  Engineering Mechanics</item>
+        <item>  Engineering Geology</item>
+    </string-array>
+
+    <string-array name="civil_sem3">
+        <item>  Managerial Economics</item>
+        <item>  Mechanics of Solids</item>
+        <item>  Numerical Methods</item>
+        <item>  Fluid Mechanics</item>
+        <item> 	Concrete Technology</item>
+        <item>  Environmental Studies</item>
+    </string-array>
+
+    <string-array name="civil_sem4">
+        <item>  Financial Management</item>
+        <item>  Water supply Engineering</item>
+        <item>  Surveying</item>
+        <item>  Geotechnical Engineering</item>
+        <item>  Water Resource Engineering</item>
+        <item>  Structural Analysis</item>
+    </string-array>
+
+    <string-array name="civil_sem5">
+        <item>  Sewage Treatment and Disposal</item>
+        <item>  Highway Engineering</item>
+        <item>  Design of Concrete Structures</item>
+        <item>  Advanced structural analysis</item>
+        <item>  Social and Legal Issues</item>
+        <item>  Macro Economics</item>
+    </string-array>
+
+    <string-array name="civil_sem6">
+        <item>  Fundamentals of Financial Market</item>
+        <item>  Foundation Engineering</item>
+        <item>  Design of Steel Structure</item>
+        <item>  Transportation Engineering</item>
+        <item>  Estimation and Costing</item>
+        <item>  Business Environment</item>
+    </string-array>
+
+    <string-array name="civil_sem7">
+
+    </string-array>
+    <string-array name="civil_sem8">
+
+    </string-array>
+
+    \\ Elecrical .........
+
+    <string-array name="electrical_sem1">
+        <item>Mathematics-I</item>
+        <item>Physics-I</item>
+        <item>Electrical Circuit Analysis</item>
+        <item>Introduction to Computers and  Programming</item>
+        <item>English</item>
+    </string-array>
+
+    <string-array name="electrical_sem2">
+        <item>	Life Skills</item>
+        <item>  Environmental  Studies</item>
+        <item>	Mathematics-II</item>
+        <item>  Physics-II</item>
+        <item>  Electronic Devices and Circuits</item>
+        <item>  Data Structures</item>
+    </string-array>
+
+    <string-array name="electrical_sem3">
+        <item>	Managerial Economics</item>
+        <item>  Probability theory and random processe</item>
+        <item>	Instrumentation and Control</item>
+        <item>  Signals and Systems</item>
+        <item>  Analogue Electronics</item>
+        <item>  Unix Programming</item>
+        <item>Design and Circuit Simulation</item>
+    </string-array>
+    <string-array name="electrical_sem4">
+        <item>	Financial Management</item>
+        <item>  Electromagnetic Engineering</item>
+        <item>	VLSI Circuits</item>
+        <item>  Digital Electronics</item>
+        <item>  Analogue Communications</item>
+        <item>  Electronics Work Shop Lab</item>
+        <item>  Multimedia Lab</item>
+    </string-array>
+    <string-array name="electrical_sem5">
+        <item>	Macro Economics</item>
+        <item>  Social and Legal Issues</item>
+        <item>	Digital Communication</item>
+        <item>  Digital Signal Processing</item>
+        <item>  Microprocessors and Interfacing</item>
+        <item>  Power Electronics</item>
+        <item>  Human Psychology</item>
+    </string-array>
+    <string-array name="electrical_sem6">
+        <item>		Business Environment</item>
+        <item>  	Marketing Management</item>
+        <item>		Telecommunication Networks</item>
+        <item>      Object Oriented Systems and Programming</item>
+        <item>  	Image Processing</item>
+        <item>      Antenna and Propagation</item>
+    </string-array>
+    <string-array name="electrical_sem7">
+        <item>	Information theory and coding technique</item>
+        <item>  Embedded Systems</item>
+        <item>	Optical Communication</item>
+        <item>  Introduction to CMOS Logic circuit design</item>
+        <item>  Artificial Intelligence and Application</item>
+        <item>  Satellite Communication</item>
+    </string-array>
+    <string-array name="electrical_sem8">
+        <item>	Spread Spectrum Communication</item>
+        <item>  Wireless and sensor network</item>
+        <item>	Image and Video Coding Standards</item>
+        <item>  Game Theory</item>
+        <item>  RADAR Signal Processing</item>
+        <item>  Nano Science and Technology</item>
+    </string-array>
+</resources>

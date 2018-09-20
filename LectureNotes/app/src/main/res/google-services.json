@@ -1,0 +1,55 @@
+{
+  "project_info": {
+    "project_number": "802710511179",
+    "firebase_url": "https://notes-70394.firebaseio.com",
+    "project_id": "notes-70394",
+    "storage_bucket": "notes-70394.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:802710511179:android:c6bd473cf344d228",
+        "android_client_info": {
+          "package_name": "com.example.logicgupta.lecturenotes"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "802710511179-nc32ubk4hgha98ices941osl0491fbaq.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.example.logicgupta.lecturenotes",
+            "certificate_hash": "5d25ad85595bb8ddb7e5ab10927f18e29ed73da4"
+          }
+        },
+        {
+          "client_id": "802710511179-scac7t30peimaspq7a2acou4snoi5qtm.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyAdNrUI7N0U-jsXMcQg-bZJj6bGdJW5pVg"
+        }
+      ],
+      "services": {
+        "analytics_service": {
+          "status": 1
+        },
+        "appinvite_service": {
+          "status": 2,
+          "other_platform_oauth_client": [
+            {
+              "client_id": "802710511179-scac7t30peimaspq7a2acou4snoi5qtm.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        },
+        "ads_service": {
+          "status": 2
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

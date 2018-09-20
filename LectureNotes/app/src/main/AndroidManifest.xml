@@ -1,0 +1,126 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="com.example.logicgupta.lecturenotes">
+
+    <uses-permission android:name="android.permission.INTERNET" />
+    <uses-permission android:name="android.permission.ACCESS_NETWORK_STATE" />
+    <uses-permission android:name="android.permission.READ_EXTERNAL_STORAGE" />
+
+    <application
+        android:allowBackup="true"
+        android:icon="@mipmap/lecture_notes_logo"
+        android:label="@string/app_name"
+        android:roundIcon="@mipmap/lecture_notes_logo"
+        android:supportsRtl="true"
+        android:theme="@style/MyStyle">
+        <activity
+            android:name=".SplashActivity"
+            android:screenOrientation="portrait">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+        <activity
+            android:name=".Login_Activity"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name=".User_Details"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name=".List_Branch"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name=".Computer_Sem_Activity"
+            android:screenOrientation="portrait">
+
+            <!-- Parent activity meta-data to support 4.0 and lower -->
+            <meta-data
+                android:name="android.support.PARENT_ACTIVITY"
+                android:value="com.example.logicgupta.lecturenotes.List_Branch" />
+
+            <!-- Parent activity meta-data to support 4.0 and lower -->
+            <!--
+                  <meta-data
+                android:name="android.support.PARENT_ACTIVITY"
+                android:value="com.example.logicgupta.lecturenotes.mechanical.Mechanical_Sem_Activity" />
+            -->
+
+        </activity>
+        <activity
+            android:name=".mechanical.Mechanical_Sem_Activity"
+            android:screenOrientation="portrait" >
+            <meta-data
+                android:name="android.support.PARENT_ACTIVITY"
+                android:value="com.example.logicgupta.lecturenotes.List_Branch" />
+        </activity>
+        <activity
+            android:name=".electrical.Electrical_Sem_Activity"
+            android:screenOrientation="portrait" >
+            <meta-data
+                android:name="android.support.PARENT_ACTIVITY"
+                android:value="com.example.logicgupta.lecturenotes.List_Branch" />
+        </activity>
+        <activity
+            android:name=".civil.Civil_Sem_Activity"
+            android:screenOrientation="portrait" >
+            <meta-data
+                android:name="android.support.PARENT_ACTIVITY"
+                android:value="com.example.logicgupta.lecturenotes.List_Branch" />
+        </activity>
+        <activity
+            android:name=".chemical.Chemical_Sem_Activity"
+            android:screenOrientation="portrait" >
+            <meta-data
+                android:name="android.support.PARENT_ACTIVITY"
+                android:value="com.example.logicgupta.lecturenotes.List_Branch" />
+        </activity>
+        <activity
+            android:name=".Register_New_User"
+            android:screenOrientation="portrait" />
+        <activity android:name=".computer_science.Math_sem1_computer" />
+        <activity android:name=".computer_science.MyRecycler_View" />
+        <activity android:name=".computer_science.Sem1_computer" />
+        <activity android:name=".computer_science.Sem2_computer" />
+        <activity android:name=".computer_science.Sem3_computer" />
+        <activity android:name=".computer_science.Sem4_computer" />
+        <activity android:name=".computer_science.Sem5_computer" />
+        <activity android:name=".computer_science.Sem6_computer" />
+        <activity android:name=".computer_science.Sem7_computer" />
+        <activity android:name=".computer_science.Sem8_computer" />
+        <activity android:name=".chemical.Sem1_Chemical" />
+        <activity android:name=".chemical.Sem2_Chemical" />
+        <activity android:name=".chemical.Sem3_Chemical" />
+        <activity android:name=".chemical.Sem4_Chemical" />
+        <activity android:name=".chemical.Sem5_Chemical" />
+        <activity android:name=".chemical.Sem6_Chemical" />
+        <activity android:name=".chemical.Sem7_Chemical" />
+        <activity android:name=".chemical.Sem8_Chemical" />
+        <activity android:name=".civil.Sem1_Civil" />
+        <activity android:name=".civil.Sem2_Civil" />
+        <activity android:name=".civil.Sem3_Civil" />
+        <activity android:name=".civil.Sem4_Civil" />
+        <activity android:name=".civil.Sem5_Civil" />
+        <activity android:name=".civil.Sem6_Civil" />
+        <activity android:name=".civil.Sem7_Civil" />
+        <activity android:name=".mechanical.Sem1_Mechanical" />
+        <activity android:name=".mechanical.Sem2_Mechanical" />
+        <activity android:name=".mechanical.Sem3_Mechanical" />
+        <activity android:name=".mechanical.Sem4_Mechanical" />
+        <activity android:name=".mechanical.Sem5_Mechanical" />
+        <activity android:name=".mechanical.Sem6_Mechanical" />
+        <activity android:name=".mechanical.Sem7_Mechanical" />
+        <activity android:name=".mechanical.Sem8_Mechanical" />
+        <activity android:name=".electrical.Sem1_Electrical" />
+        <activity android:name=".electrical.Sem2_Electrical" />
+        <activity android:name=".electrical.Sem3_Electrical" />
+        <activity android:name=".electrical.Sem4_Electrical" />
+        <activity android:name=".electrical.Sem5_Electrical" />
+        <activity android:name=".electrical.Sem6_Electrical" />
+        <activity android:name=".electrical.Sem7_Electrical" />
+        <activity android:name=".electrical.Sem8_Electrical" />
+        <activity android:name=".civil.Sem8_Civil"></activity>
+    </application>
+
+</manifest>
